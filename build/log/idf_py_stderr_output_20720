@@ -1,0 +1,271 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM10 instead...[0m
+[0;33m--- idf_monitor on \\.\COM10 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x403751d8: call_start_cpu1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/port/cpu_start.c:143
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x4200a14e: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x4200a2fa: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x403770f9: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42007d41: app_main at D:/espidf-iot-project/main/warning_device.c:60
+[0m
+[0;33m0x4201a3ef: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x4037a221: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0m

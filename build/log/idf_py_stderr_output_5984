@@ -1,0 +1,186 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM10 instead...[0m
+[0;33m--- idf_monitor on \\.\COM10 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x403751ac: call_start_cpu1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/port/cpu_start.c:143
+[0m
+[0;33m0x42009e52: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x42009ffe: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40377071: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42006e2e: uart_ll_get_txfifo_len at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/hal/esp32s3/include/hal/uart_ll.h:314 (discriminator 1)
+ (inlined by) uart_tx_char at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:164 (discriminator 1)
+[0m
+[0;33m0x42007cab: uart_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:217
+[0m
+[0;33m0x42006861: console_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x42006416: esp_vfs_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x4200bbe9: __swrite at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+[0m
+[0;33m0x420139ea: __sflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+[0m
+[0;33m0x42013a76: _fflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+[0m
+[0;33m0x4200b6b3: __sfvwrite_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x42016f9b: __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x4201269a: _vfprintf_r at ??:?
+[0m
+[0;33m0x4200b859: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x42007d16: app_main at D:/espidf-iot-project/main/warning_device.c:37
+[0m
+[0;33m0x4201a0f3: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40379f21: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x42009e52: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x42009ffe: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40377071: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42006e29: uart_tx_char at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:162
+[0m
+[0;33m0x42007cab: uart_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:217
+[0m
+[0;33m0x42006861: console_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x42006416: esp_vfs_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x4200bbe9: __swrite at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+[0m
+[0;33m0x420139ea: __sflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+[0m
+[0;33m0x42013a76: _fflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+[0m
+[0;33m0x4200b6b3: __sfvwrite_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x42016f9b: __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x4201269a: _vfprintf_r at ??:?
+[0m
+[0;33m0x4200b859: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x42007d16: app_main at D:/espidf-iot-project/main/warning_device.c:37
+[0m
+[0;33m0x4201a0f3: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40379f21: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x42009e52: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x42009ffe: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40377071: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42006e2e: uart_ll_get_txfifo_len at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/hal/esp32s3/include/hal/uart_ll.h:314 (discriminator 1)
+ (inlined by) uart_tx_char at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:164 (discriminator 1)
+[0m
+[0;33m0x42007cab: uart_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:217
+[0m
+[0;33m0x42006861: console_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x42006416: esp_vfs_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x4200bbe9: __swrite at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+[0m
+[0;33m0x420139ea: __sflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+[0m
+[0;33m0x42013a76: _fflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+[0m
+[0;33m0x4200b6b3: __sfvwrite_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x42016f9b: __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x4201269a: _vfprintf_r at ??:?
+[0m
+[0;33m0x4200b859: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x42007d02: app_main at D:/espidf-iot-project/main/warning_device.c:31
+[0m
+[0;33m0x4201a0f3: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40379f21: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x42009e52: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x42009ffe: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40377071: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42006e34: uart_ll_get_txfifo_len at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/hal/esp32s3/include/hal/uart_ll.h:314 (discriminator 1)
+ (inlined by) uart_tx_char at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:164 (discriminator 1)
+[0m
+[0;33m0x42007cab: uart_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:217
+[0m
+[0;33m0x42006861: console_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x42006416: esp_vfs_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x4200bbe9: __swrite at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+[0m
+[0;33m0x420139ea: __sflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+[0m
+[0;33m0x42013a76: _fflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+[0m
+[0;33m0x4200b6b3: __sfvwrite_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x42016f9b: __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x4201269a: _vfprintf_r at ??:?
+[0m
+[0;33m0x4200b859: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x42007d16: app_main at D:/espidf-iot-project/main/warning_device.c:37
+[0m
+[0;33m0x4201a0f3: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40379f21: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0;33m0x42009e52: task_wdt_timeout_handling at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x42009ffe: task_wdt_isr at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40377071: _xt_lowint1 at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1118
+[0m
+[0;33m0x42006e2e: uart_ll_get_txfifo_len at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/hal/esp32s3/include/hal/uart_ll.h:314 (discriminator 1)
+ (inlined by) uart_tx_char at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:164 (discriminator 1)
+[0m
+[0;33m0x42007cab: uart_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_uart.c:217
+[0m
+[0;33m0x42006861: console_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs_console.c:73
+[0m
+[0;33m0x42006416: esp_vfs_write at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/vfs/vfs.c:436 (discriminator 4)
+[0m
+[0;33m0x4200bbe9: __swrite at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+[0m
+[0;33m0x420139ea: __sflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+[0m
+[0;33m0x42013a76: _fflush_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+[0m
+[0;33m0x4200b6b3: __sfvwrite_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/fvwrite.c:251
+[0m
+[0;33m0x42016f9b: __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+[0m
+[0;33m0x4201269a: _vfprintf_r at ??:?
+[0m
+[0;33m0x4200b859: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp32s3-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x42007d16: app_main at D:/espidf-iot-project/main/warning_device.c:37
+[0m
+[0;33m0x4201a0f3: main_task at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/app_startup.c:208 (discriminator 13)
+[0m
+[0;33m0x40379f21: vPortTaskWrapper at D:/application/Espressif/frameworks/esp-idf-v5.0.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:149
+[0m
+[0m
